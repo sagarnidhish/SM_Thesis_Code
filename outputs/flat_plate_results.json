@@ -1,0 +1,39 @@
+{
+  "case": "flat_plate",
+  "boundaries": [
+    504988.444782053,
+    856434.400046759
+  ],
+  "regions": [
+    {
+      "name": "laminar",
+      "start_index": 0,
+      "end_index_exclusive": 39,
+      "re_min": 126888.931780001,
+      "re_max": 499551.608276885,
+      "intercept": -0.542075298552616,
+      "coefficient": 0.5815401298104038,
+      "exponent": 0.5033714248146488
+    },
+    {
+      "name": "transition",
+      "start_index": 39,
+      "end_index_exclusive": 72,
+      "re_min": 504988.444782053,
+      "re_max": 843553.4234541468,
+      "intercept": -26.078643560644046,
+      "coefficient": 4.7226852904075266e-12,
+      "exponent": 2.4545202054030217
+    },
+    {
+      "name": "turbulent",
+      "start_index": 72,
+      "end_index_exclusive": 102,
+      "re_min": 856434.400046759,
+      "re_max": 2031609.42609471,
+      "intercept": -4.4302377700578015,
+      "coefficient": 0.011911657100655233,
+      "exponent": 0.8737847639022531
+    }
+  ]
+}

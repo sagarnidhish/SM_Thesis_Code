@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sm-thesis-code"
+version = "1.0.0"
+description = "Reproducibility package for data-driven convective heat-transfer correlations"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.7,<4",
+  "numpy>=1.24,<3",
+  "openpyxl>=3.1,<4",
+  "pandas>=2.0,<3",
+  "ruptures>=1.1.9,<2",
+  "scikit-learn>=1.3,<2",
+  "scipy>=1.10,<2",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

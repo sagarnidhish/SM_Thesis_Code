@@ -1,0 +1,14 @@
+.worktrees/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+
+outputs/*
+!outputs/.gitkeep
+!outputs/flat_plate_analysis.png
+!outputs/flat_plate_results.json
+!outputs/sphere_analysis.png
+!outputs/sphere_results.json

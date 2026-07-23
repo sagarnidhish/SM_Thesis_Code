@@ -1,0 +1,58 @@
+{
+  "case": "sphere",
+  "prandtl_number": 0.71,
+  "transition_zones": [
+    [
+      35,
+      39
+    ],
+    [
+      160,
+      164
+    ],
+    [
+      260,
+      264
+    ],
+    [
+      266,
+      270
+    ],
+    [
+      273,
+      277
+    ]
+  ],
+  "regions": [
+    {
+      "name": "region_1",
+      "start_index": 0,
+      "end_index_exclusive": 35,
+      "re_min": 1.0,
+      "re_max": 22.18761404885059,
+      "intercept": -0.9279543452084249,
+      "coefficient": 0.3953616571681229,
+      "exponent": 0.49757214832691066
+    },
+    {
+      "name": "region_2",
+      "start_index": 39,
+      "end_index_exclusive": 160,
+      "re_min": 35.0,
+      "re_max": 11565.0022766618,
+      "intercept": -0.8997115569609493,
+      "coefficient": 0.40668694884364,
+      "exponent": 0.5531792493583191
+    },
+    {
+      "name": "region_3",
+      "start_index": 164,
+      "end_index_exclusive": 260,
+      "re_min": 14149.5879877023,
+      "re_max": 265889.344252785,
+      "intercept": -1.9021424660777608,
+      "coefficient": 0.14924851655664823,
+      "exponent": 0.66174854511053
+    }
+  ]
+}
